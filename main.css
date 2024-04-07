@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins","roboto condensed";
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    background: linear-gradient(to right,#c71585,#ff1493,#ff8c00,#ff4500);
+    width: 100%;
+    height: auto;
+    font-weight: 500;
+    font-size: 12px;
+}
+.img-div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.img{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 4px;
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+button{
+    background:rgb(16, 16, 168);
+    border: 2px solid #fff;
+    border-radius: 18px;
+    height: 2.5rem;
+    width:5rem;
+    color: #fff;
+    margin: 0px 2px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    margin: 8px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: all 1s ease-in-out;
+}
+a:hover{
+    text-decoration: underline;
+}
+.text-div{
+    font-size: 1rem;
+    margin-left: 5px;
+    font-weight: 500;
+}
+.main-section{
+    background-image: url("image/background.jpeg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.girl.img{
+    object-fit: cover;
+    margin-left: 250px;
+    box-shadow: 6px 6px 9px #000;
+}
+.write{
+    margin-left: 150px;
+}
+.change{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+#about{
+    line-height: 35px;
+    height: 100vh;
+    width: 100%;
+}
+.about-heading{
+    text-transform: capitalize;
+    background: linear-gradient( to right,#c71585,#ff1493,#ff8c00,#ff4500);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #000;
+    border-radius: 18px;
+    padding: 8px;
+    margin: 15px 0px;
+}
+.courses-heading{
+    text-transform: capitalize;
+    background: linear-gradient( to right,#c71585,#ff1493,#ff8c00,#ff4500);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #000;
+    border-radius: 18px;
+    padding: 8px;
+    margin: 15px 0px;
+}
+.searchbar{
+    height: 70px;
+    width: 400px;
+    border: 2PX SOLID #fff;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    background-color: transparent;
+}
+.searchbar::placeholder{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.btn{
+    height: 3rem;
+    width: 7rem;
+    margin: 10% 0 10% 30%;
+
+}
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex-box img{
+    height: 8rem;
+    width: 8rem;
+}
+.border{
+box-sizing: border-box;
+    border: 2px solid black;
+    height: 550px;
+    width: 320px;
+    border-radius: 15px;
+    background: linear-gradient(to right,#c71585,#ff1493,#ff8c00,#ff4500);
+}
+.box-img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin: 5px;
+}
+.dis{
+    margin: 10px;
+}
+.course-description{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+.a-img{
+    height: 200px;
+    width: 200px;
+
+}
+.acc1{
+    border: 2px solid black;
+}
